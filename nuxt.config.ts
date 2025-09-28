@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxt/image", "@nuxt/fonts", "nuxt-gtag"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxt/image", "@nuxt/fonts"],
   typescript: {
     typeCheck: true
   },
@@ -42,9 +42,6 @@ export default defineNuxtConfig({
     defaults: {
       weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
     },
-  },
-  gtag: {
-    id: 'G-ZZ45111LQR'
   },
   content: {
     preview: {

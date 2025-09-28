@@ -16,7 +16,6 @@
     "@nuxtjs/tailwindcss": "^6.12.1",
     "better-sqlite3": "^12.4.1",
     "nuxt": "^3.13.0",
-    "nuxt-gtag": "^3.0.1",
     "pm2": "^5.4.2",
     "vue": "latest",
     "vue-router": "latest"
