@@ -10,7 +10,7 @@ h: "259"
 src: /head.jpg
 w: "186"
 ---
-Je m’appelle **Lilian**, je suis D.E Tennis **classé 2/6**, titulaire d’un **MASTER 1** en **STAPS** mention **MEEF** (Métiers de l'enseignement, de l'éducation et de la formation), et je suis **créateur de contenu** depuis le 31 janvier 2024, avec plus de **500 000 vues** à mon actif !
+Je m’appelle **Lilian**, je suis D.E Tennis **classé 2/6**, titulaire d’un **MASTER 1** en **STAPS** mention **MEEF** (Métiers de l'enseignement, de l'éducation et de la formation), et je suis **créateur de contenu** depuis le 31 janvier 2024, avec plus de **700 000 vues** à mon actif !
 
 Je continue à me **former** en **comité** et m'appuie dans mon enseignement sur **les travaux** d'autres **professionnels** de renom comme [Cyril Genevois](https://cyril-genevois.learnworlds.com/), docteur en science du sport, dont les travaux ciblent l'**analyse d'une technique fonctionnelle** s'appuyant sur la **biomécanique**.
 
