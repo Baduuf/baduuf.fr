@@ -45,5 +45,10 @@ export default defineNuxtConfig({
   },
   gtag: {
     id: 'G-ZZ45111LQR'
+  },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
   }
 })
