@@ -12,7 +12,7 @@
       </a>
     </div>
     <p class="text-center mt-5">
-      <ContentSlot :use="$slots.default" unwrap="p"/>
+      <slot mdc-unwrap="p" />
     </p>
   </footer>
 </template>

@@ -8,8 +8,8 @@
       :class="{
         grayscale
       }"
-      :width="w"
-      :height="h"
+      :width="width"
+      :height="height"
     />
     <div class="text-base leading-relaxed text-center md:text-left">
       <slot />
@@ -22,8 +22,8 @@
       :class="{
         grayscale
       }"
-      :width="w"
-      :height="h"
+      :width="width"
+      :height="height"
     />
   </article>
 </template>
@@ -31,15 +31,21 @@
 <script lang="ts" setup>
 const {
   imagePosition = 'left',
-  grayscale = false
+  grayscale = false,
+  w,
+  h
 } = defineProps<{
   src?: string
   alt?: string
   imagePosition?: string
   grayscale?: boolean
-  w?: number
-  h?: number
+  w?: string | number
+  h?: string | number
 }>()
+
+// Convertir les props w et h en nombres
+const width = computed(() => typeof w === 'string' ? parseInt(w) : w)
+const height = computed(() => typeof h === 'string' ? parseInt(h) : h)
 </script>
 
 <style>
